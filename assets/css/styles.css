@@ -37,6 +37,7 @@ body{
     border: 1px solid black;
 }
 #resultado, #resultado2{
+    margin-left: 6px;
     margin-top: 10px;
     font-family:'Delius', cursive;
     font-size: 16px;

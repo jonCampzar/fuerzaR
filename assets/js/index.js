@@ -53,10 +53,11 @@ force.addEventListener('submit', (e) => {
     const fuerza6 =(parseFloat(force.f6.value));
 
     const sum1 = fuerza1 + fuerza2 + fuerza3;
-
+    const sum11 = sum1.toFixed(3)
     
     const sum2 = fuerza4 + fuerza5 + fuerza6;
-
+    const sum22 = sum2.toFixed(3)
+    
     const raiz = Math.sqrt((Math.pow(sum1,2)) + (Math.pow(sum2,2)));
 
     const tetha = ((Math.atan(sum2/sum1)))*(180/(Math.PI))
@@ -66,9 +67,9 @@ force.addEventListener('submit', (e) => {
     
     $resultado2.innerHTML +=`
                     <p id="resultado2">
-                                      La sumatoria de fuerzas en X es: ${sum1} N
+                                      La sumatoria de fuerzas en X es: ${sum11} N
                                       <br>
-                                       La sumatoria de fuerzas en Y es: ${sum2} N
+                                       La sumatoria de fuerzas en Y es: ${sum22} N
                                       <br>
                                       | Fr | = ${raiz.toFixed(3)} N 
                                       <br>
