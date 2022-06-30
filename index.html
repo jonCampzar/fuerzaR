@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" id="nav">
+      <img src="assets/img/pngwing.com (71).png" width="50" height="50" class="d-inline-block align-center" id="nav">
+      Calculadora de F en 2D
+    </a>
+  </nav>
+<div class="container">
+    <div class="row">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0W_WFMu6r4LFKrt8qxWOI_77L3YzZ9DrNDVrNscFnx6Lmzf4d4TpTceR4_ubNVMtylYM&usqp=CAU" alt="">
+    </div>
+    <div class="row">
+        <form id="grados">
+            <h5 id="nav">Ingresa los grados siempre y cuando esten en función al eje X</h5>
+            <label for="g" id="labelf">Grados</label>
+            <input type="number" 
+            step="0.001" name="g" id="labeli" placeholder="Ingresa en º">
+            <br>
+            <label for="f" id="labelf">Fuerza</label>
+            <input type="number" step="0.001" name="f" id="labeli" placeholder="Ingresa la fuerza en N">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-warning" id="btn">Calcular</button>
+           
+        </form>
+
+        <p id="resultado">
+        </p>
+
+    </div>
+
+    <div class="row">
+      <form id="force">
+          <h5 id="nav">Ingresa los fuerzas resultantes del paso anterior, TEN ESPECIAL ATENCIÓN EN EL SIGNO</h5>
+          <br>
+          <label for="f1" id="labelfrz">Fuerza 1 en x</label>
+          <input type="number" step="0.001" name="f1" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <label for="f2" id="labelfrz">Fuerza 2 en x</label>
+          <input type="number" step="0.001" name="f2" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <label for="f3" id="labelfrz">Fuerza 3 en x</label>
+          <input type="number" step="0.001"  name="f3" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <br>
+          
+          <label for="f4" id="labelfrz">Fuerza 1 en y</label>
+          <input type="number" step="0.001" name="f4" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <label for="f5" id="labelfrz">Fuerza 2 en y</label>
+          <input type="number" step="0.001" name="f5" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <label for="f6" id="labelfrz">Fuerza 3 en y</label>
+          <input type="number" step="0.001"  name="f6" id="labelfz" placeholder="Ingresa la fuerza en N" value="0">
+          <br>
+          <br>
+          <button type="submit" class="btn btn-warning" id="boton">Calcular</button>
+      </form>
+
+      <p id="resultado2">
+
+      </p>
+
+  </div>
+
+
+</div>
+
+<footer id="dev">
+  <p id="dev">Dev. Jonatan Campos</p>
+</footer>
+
+    <!-- Scripts de BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

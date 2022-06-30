@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Megrim&family=Stick+No+Bills&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+}
+#nav{
+    font-family: 'Megrim', cursive;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#grados, #force{
+    margin-top: 13px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    font-family: 'Megrim', cursive;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#labelf{
+    width: 60px;
+}
+#labeli{
+    width: 180px;
+}
+#btn, #boton{
+    color: black;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+}
+#resultado, #resultado2{
+    margin-top: 10px;
+    font-family:'Delius', cursive;
+    font-size: 16px;
+}
+#dev{
+    display: flex;
+    font-family: 'Megrim', cursive;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255); 
+    background-color: black;
+    margin: none;
+}
